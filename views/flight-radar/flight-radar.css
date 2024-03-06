@@ -1,0 +1,116 @@
+.image-with-text {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+  }
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .images img {
+    width: 300px;
+    height: 225px; 
+    height: auto; 
+    margin-right: 20px;
+  }
+  
+  .label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  
+  .image-slider {
+    overflow-x: auto; 
+  }
+  
+  .images {
+    display: flex; 
+  }
+  
+  .image-container {
+    margin-right: 10px; 
+    width: 300px; 
+    height: 225px; 
+    object-fit: cover;
+  }
+
+  .image-container1 {
+    margin-right: 10px; 
+    width: 300px; 
+    height: 225px; 
+  }
+  
+  .image-container:last-child {
+    margin-right: 0; 
+  }
+
+  .image-slider{
+    border-color: #007bff;
+    border-width: 2px;
+  }
+  
+  #map{
+    height: 80vh;
+    width: 100%;
+  }
+
+  #flightAlerts {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.alert {
+    margin-top: 10px;
+    display: none;
+}
+#trackFlightBtn {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: -5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#trackFlightBtn:hover {
+  background-color: #45a049; /* Darker green */
+}
+#flightNumberInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+th {
+  padding: 10px; /* Add padding to each th element */
+}
